@@ -27,6 +27,29 @@ namespace snake
             Point p = new Point(2, 5, '*');
             Snake snake = new Snake(p, 4, Direction.RIGHT);
             snake.Drow();
+            snake.Move();
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
+
+
+
+
             Console.ReadLine();
         }
 
